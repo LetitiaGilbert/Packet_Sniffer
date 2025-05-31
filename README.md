@@ -10,11 +10,14 @@ Do not use it to intercept traffic without permission, as that may violate priva
 
 ### REQUIREMENTS
 install scapy
->pip install scapy
+```bash
+pip install scapy
+```
 
 run
->sudo python packet_sniffer.py
-
+```bash
+sudo python packet_sniffer.py
+```
 interfaces could be
  - eth0 (Ethernet)
  - wlan0 or wlp3s0 (Wi-Fi)
